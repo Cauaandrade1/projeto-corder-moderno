@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Josefin Sans', sans-serif;
+    --fonte03: 'Passion One';
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+header > h1{
+    background-color: black;
+    font-family: 'Passion One', cursive;
+    color: white;
+    font-size: 10vw;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > h2{
+    padding-bottom: 50px;
+}
+
+header > h2 > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+main{
+    font-family: var(--fonte02);
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section > p{
+    padding-bottom: 1em;
+}
+
+#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#img2{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dentro{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte01);
+    padding: 30px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
